@@ -15,7 +15,6 @@ CONSOLA SI ES MAYOR DE EDAD
 edad = int(input("ingrese su edad:\n"))
 
 # Proceso
-
 if edad >= 18:
     #24 >= 18
 # camino de la verdad 

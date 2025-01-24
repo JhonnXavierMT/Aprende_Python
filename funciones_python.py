@@ -23,17 +23,17 @@ saludar()
 "Ahora, si quieres que tu función sea más útil, puedes agregarle parámetros 🍳"
   
 def saludar(nombre):  
-    print(f"¡Hola, {nombre}!")  
+    print(f"¡Hola,!",nombre)  
   
 #🗣️:  
 "Cuando llamas a la función, le das un valor. Mira:"
 
-saludar("Jhonn")  
+saludar("Cristiano Ronaldo")  
 
 #'Funciones con retorno']**  
  
 def sumar(a, b):  
     return a + b  
-resultado = sumar(5, 3)  
-print(resultado)  # Salida: 8  
+resultado = sumar(5, 5)  
+print(resultado)  # Salida: 10 
 
