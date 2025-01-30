@@ -8,5 +8,6 @@ def sumar(a, b):
 
 #-----------------------------------------    
 
-resultado = sumar(5, 3)  
+resultado = sumar(7, 3)
+
 print(resultado)   
