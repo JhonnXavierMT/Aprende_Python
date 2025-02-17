@@ -6,9 +6,7 @@
 """_Guardar en una variable un dato y muestralo por Consola_"""
 
 nombre = "Lail kaneki"
-
 edad = 21
-
 print(nombre," de edad de: ",edad," años.")
 
 
