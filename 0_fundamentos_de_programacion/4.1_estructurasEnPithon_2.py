@@ -1,7 +1,5 @@
 # 🚀 "Si quieres ser un programador PRO, debes dominar esto…" 🧠💻
 # 🤯 "Las estructuras de datos son la clave para escribir código rápido y eficiente." 🔥
-# 📌 "Listas, pilas, colas, diccionarios… ¿No sabes qué son? Tranquilo, en este video te lo explico fácil y rápido." ⏳✨
-# 👀 "Después de esto, tu código nunca será el mismo. ¡Vamos allá!" ▶️
 
 # Estructuras de datos básicas en Python
 
@@ -25,9 +23,7 @@ cola = deque(["A", "B", "C"])
 print("Cola antes de desencolar:", cola)
 cola.popleft()  # Desencolar
 print("Cola después de desencolar:", cola)
-#--------------------------------------------------------------------------------------
-#--------------------------------------------------------------------------------------
-#--------------------------------------------------------------------------------------
+
 
 
 

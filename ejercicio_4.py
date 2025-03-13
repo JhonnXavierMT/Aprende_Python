@@ -4,7 +4,7 @@
 #[ejercico_3 en python]
 
 """_LEER DOS NUMEROS 
-    A Y B,DEL MAYOR RESTARLE
+    A Y B, DEL MAYOR RESTARLE
     EL MENOR. DESPLEGAR EL
     RESULTADO_"""
 
