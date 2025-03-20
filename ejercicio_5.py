@@ -1,27 +1,24 @@
-import emoji as em
 # Dale Like <3
 # Sigueme Para mas \(o_o)/
 
 #[ejercico_5 en python]
-
-"""CREE UN PROGRAMA ESTILO TERMOSTATO QUE INDIQUE 
-   QUE SI ESTA A MENOS DE 10 C° HACE FRIO
-   O  SI ESTA MAS DE 27 C° HACE CALOR Y SI ESTA
-   EN MEDIO DEL RANGO DE MAYOR A 10 Y MENOR A 27 
-   EL AMBIENTE ES ESTABLE """
-#INICIO 
- # Leer temperatura
-temp =int(input("Temperatura del ambiente:\n "))
-#Establecer el rango de temp estable
-if temp > 10 and temp < 27:
-    # mostramos si esta en el rango
-    print("la Temperatura es estable 😀 ") 
-elif temp <=10:
-    # mostramos si esta en abajo del rango
-    print("La temperatura esta muy Fria ❄️ ")
-elif temp >=27:
-    # mostramos si esta encima del rango
-    print("La temperatura esta muy caliente 🔥 ")
-
-
-
+"""GENERAR Y DESPLEGAR LOS N NUMERO QUE
+   TENGAN LA SIGUIENTE FORMA:
+   1,3,2,4,5,7,6,8... """
+#Leer n
+n = int(input("longitud de la serie: "))#2
+#Inicializacion de variables
+cont,impares,pares=0,1,0
+while cont<n:#condicion de la longitud de la serie
+    cambio=0
+    while cambio < 2 and cont < n:#genera dos numeros
+        print(impares)
+        impares+=2 #genera serie de impares
+        cambio+=1 #contador while 2
+        cont+=1 #contador while 1
+    cambio=0
+    while cambio < 2 and cont < n:#genera dos numeros
+        pares+=2 #genera serie de pares
+        print(pares)
+        cambio+=1 # contador while 3
+        cont+=1 # conatdor while 1

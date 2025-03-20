@@ -1,26 +1,26 @@
 # Dale Like <3
 # Sigueme Para mas \(o_o)/
 
-#[ejercico_2 en python]
-"""
-_LEER DOS NUMEROS A Y B, 
-REALIZAR CON ELLOS LAS
-4 OPERACIONES DE LA ARITMETICA 
-Y MOSTRAR POR CONSOLA
-"""
-#Entrada
-A = int(input("Ingrese el primer número\n"))
-B = int(input("Ingrese el segundo número\n"))
+#[ejercico_5 en python]
 
-#Proceso
-suma = A + B
-resta = A - B
-division = A / B
-multiplicacion = A * B
+"""CREE UN PROGRAMA ESTILO TERMOSTATO QUE INDIQUE 
+   QUE SI ESTA A MENOS DE 10 C° HACE FRIO
+   O  SI ESTA MAS DE 27 C° HACE CALOR Y SI ESTA
+   EN MEDIO DEL RANGO DE MAYOR A 10 Y MENOR A 27 
+   EL AMBIENTE ES ESTABLE """
+#INICIO 
+ # Leer temperatura
+temp =int(input("Temperatura del ambiente:\n "))
+#Establecer el rango de temp estable
+if temp > 10 and temp < 27:
+    # mostramos si esta en el rango
+    print("la Temperatura es estable 😀 ") 
+elif temp <=10:
+    # mostramos si esta en abajo del rango
+    print("La temperatura esta muy Fria ❄️ ")
+elif temp >=27:
+    # mostramos si esta encima del rango
+    print("La temperatura esta muy caliente 🔥 ")
 
-#Salida
-print("Los resultados son:")
-print("De la suma : ",suma)
-print("De la resta : ",resta)
-print("De la division : ",division)
-print("De la multiplicacion : ",multiplicacion)
+
+

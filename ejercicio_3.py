@@ -2,23 +2,14 @@
 # Sigueme Para mas \(o_o)/
 
 #[ejercico_3 en python]
-
-"""_
-LEER UNA EDAD Y MUESTRE POR
-CONSOLA SI ES MAYOR DE EDAD
- O MENOR DE EDAD PARA QUE 
- EL USUARIO PUEDA REGISTRARSE
- EN EL SISTEMA.
- _"""
-
-#Entrada 
-edad = int(input("ingrese su edad:\n"))
-
-# Proceso
-if edad >= 18:
-    #24 >= 18
-# camino de la verdad 
-    print("Puede registrarse en el sistema (UwU)/")
+"""Leer un número y determinar si 
+   este es un número par o impar"""
+#Leer numero
+numero = int(input("ingrese un numero:\n"))
+#Condicion que verifica si es par
+if numero % 2==0:
+    #mensaje si es Par
+    print(f"{numero} es un numero Par")
 else:
-# camino de la falsedad 
-    print("No puede registrarse en el sistema (U_U)/")
+    #mensaje si es Impar
+    print(f"{numero} es un numero Impar")
