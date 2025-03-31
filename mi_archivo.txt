@@ -1,3 +1,9 @@
 HOLA  SOY UN TEXTO 
 ATRAPADO EN ESTE 
 ARCHIVO
+subir git
+- git status
+- git add .
+- git add archivo.py
+- git commit -m "Mensaje del commit"
+- git push origin main
