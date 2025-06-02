@@ -14,11 +14,6 @@ while contador <= 5:
 
 """_ controlador FOR_"""
 
-palabras = ["manzana", "banana", "cerezo", "durazno"]
-
-for palabra in palabras:
-    print(palabra)
-
 # Iterar sobre una lista
 numeros = [1, 2, 3, 4, 5]
 for numero in numeros:
